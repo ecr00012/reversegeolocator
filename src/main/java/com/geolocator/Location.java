@@ -14,6 +14,7 @@ public class Location {
         this.country = country;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.distance = -1;
     }
     public Location(String city, String country, String state, double latitude, double longitude, double distance) {
         this.city = city;
@@ -30,6 +31,7 @@ public class Location {
         this.country = country;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.distance = -1;
        
     }
 
@@ -38,6 +40,7 @@ public class Location {
         this.latitude = latitude;
         this.longitude = longitude;
         this.state = this.city = this.country = "";
+        this.distance = -1;
         
     }
 
@@ -71,11 +74,7 @@ public class Location {
     }
 
     public Object getDistance(){
-        try {
         return distance;
-        } catch(Exception e){
-            return null;
-        }
     }
 
     @Override

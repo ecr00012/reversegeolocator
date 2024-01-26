@@ -13,3 +13,5 @@ Implements dotenv
 .env contains files "inFile" and "outFile" for input/output
 
 For entries without lat/long: no added data (empty fields)
+
+Note: For Locations initalized without a distance field, toString() and getDistance() return a distance of -1

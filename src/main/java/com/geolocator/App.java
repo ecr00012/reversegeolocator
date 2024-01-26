@@ -22,7 +22,7 @@ class App  {
 
 // List<Location> example 
     
-     List<Location> locations = locator.getLocations("LocationLatitude", "LocationLongitude");
+    List<Location> locations = locator.getLocations("LocationLatitude", "LocationLongitude");
 
 
 
