@@ -87,5 +87,15 @@ public class Location {
         return city +", " + country + ", Distance: " + distance;
     }
 
+   
+    public boolean equals(Location location){
+       if (this.latitude == location.latitude && this.longitude == location.longitude)
+       return true;
+
+       return false;
+    }
+
+
+
 
 }
